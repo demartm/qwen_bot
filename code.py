@@ -186,7 +186,7 @@ def sendMessage(msg, chat_id, parent_id):
 	
 	if chunk.get('response_id'):
 		response_id = chunk['response_id']
-	else
+	else:
 		response_id = None
 	
 	full_text = ''.join(text)
